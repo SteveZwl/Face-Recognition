@@ -1,0 +1,27 @@
+1 Overview of face recognition algorithms
+
+Face recognition algorithm refers to the recognition algorithm that feeds into the back end after the main face area can be cropped out after the face is detected and the key feature points of the face are located. The recognition algorithm completes the extraction of face features and compares them with the known faces in stock to complete the final classification.
+
+Face recognition method mainly focuses on two-dimensional image, two-dimensional face recognition mainly uses distribution in the face from low to high 80 nodes or punctuation, by measuring the spacing between the eyes, cheekbones, chin and so on to authenticate. Face recognition algorithms are:
+
+1. Based on the template matching method: the template is divided into two-dimensional template and three-dimensional template, the core idea: using the law of human facial features to build a three-dimensional adjustable model frame, after positioning the human face position, using the model frame to locate and adjust the human facial features, to solve the human face recognition process of observation angle, masking and expression changes and other factors.
+
+2. Based on the singular value feature method: The singular value feature of the face image matrix reflects the essential properties of the image and can be used to classify and identify it.
+
+3. Subspace analysis method: Because of its characteristics of strong descriptiveness, small computational cost, easy realization and good seability, it is widely used in face feature extraction, and has become one of the mainstream methods of face recognition.
+
+4. Localized Hold Projection (Locality Preserving Projections, LPP) is a new subspace analysis method, which is a linear approximation of the nonlinear method Laplacian Eigenmap, which not only solves the disadvantage that traditional linear methods such as PCA are difficult to maintain the nonlinear flow of raw data, but also solves the disadvantage that the nonlinear method is difficult to obtain a new sample point low-dimensional projection.
+
+5. Main Component Analysis (PCA)
+
+An important method in the field of PCA pattern recognition has been widely used in face recognition algorithms, and PCA face recognition system is facing an important obstacle in its application: incremental learning. The incremental PCA algorithm reconstructs the most important PCS from the new sample, but with the increase of the sample, the method needs to constantly discard some un important PCs in order to keep the subspace dimensionality unchanged, so the accuracy of the method is slightly worse.
+
+6. Other methods: elastic matching method, feature face method (based on KL transformation), artificial neural network method, support vector machine method, integral image feature method (adaboost learning), probability model method.
+
+The biggest deficiency of the two-dimensional face recognition method is that it is more fragile in the face of attitude, different lighting conditions, expression changes and facial makeup, and the accuracy of recognition is greatly limited, and these are all faces that will be expressed at any time in their natural state. Three-dimensional face recognition can greatly improve the accuracy of recognition, the real three-dimensional face recognition is the use of deep image research, since the early 1990s, there has been some progress. The 3D face recognition methods are:
+
+1. Based on image features: an algorithm is adopted to separate the attitude from the 3D structure. First matches the overall dimension profile and three-dimensional spatial orientation of the face, and then, while maintaining a fixed posture, to make a local match for the different feature points of the face, which are artificially identified.
+
+2. Method based on model variable parameters: Restore head posture and 3D face by combining 3D deformation of the universal face model with minimal matrix iteration based on distance mapping. As the correlation of model deformation changes, the attitude parameters are constantly updated, repeating this process until the minimization scale meets the requirements. The biggest difference between the model variable parameter-based approach and the image-based feature method is that the latter needs to re-search the coordinates of the feature points after each change in face posture, where the former only needs to adjust the parameters of the 3D deformation model.
+
+This face recognition is only the position recognition of the face.
