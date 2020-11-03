@@ -1,0 +1,20 @@
+1)Problem statement: Face recognition is more and more widely used in daily life, such as face payment and face information collection. People rely on face recognition for quick and convenient payment and identity authentication, but many problems come along, including the security of face payment and the need for multiple recognition due to failure in the recognition process, which affects the user experience. Therefore, how to improve the accuracy of face recognition is an urgent problem that can greatly improve the security and user experience.
+
+2)Description of data set: We choose the most commonly used human face data sets from the following databases: WebFace, FaceScrub, YouTube Face, LFW, MultiPIE, MegaFace, IJB-A, CAS-PEAL, Pubfig.
+
+3)Implementation plan: In this project, we use three different algorithms to implement face recognition, and integrate them into one program to promote the accuracy of face recognition at the end of project.
+Module 1: Eigenface
+Module 2: Local Binary Patterns
+Module 3: Fisherface
+
+Timeline: First week: Do literature review, get to know the algorithm used in face recognition and determine the dataset.
+Second-fourth week: Start programming. Every member use different algorithm to implement the face recognition simultaneously.
+Fifth-sixth week: Integrate the algorithms into project , adjust the program to meet the demand of improving accuracy of face recognition and optimize the project as needed.
+Seventh week: Finish the final report and project presentation video.
+
+4)Team members: Yi Xiao, Wenlong Zhang, Dongfang Zhao
+Task allocation: Each one of team use one different algorithm to achieve his own module, finally we integrate them to finish the project.
+
+Work independently: three modules of three algorithms
+
+Work together: proposal, mid-stage report, modules integration, final report, final presentation.
