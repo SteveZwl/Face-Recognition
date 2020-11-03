@@ -1,0 +1,19 @@
+Specific implementation steps:
+
+1, HDMI image input
+
+2, RGB channel correction
+
+3, rgb2ycbcr color space conversion
+
+4, ycbcr feature target area extraction
+
+5, image two-value
+
+6, rank counter
+
+7, two-value image area boundary calculation
+
+8, FPGA completes the display of the face area
+
+9, HDMI completes the image output.
